@@ -20,11 +20,11 @@ I followed the instructions from the Creative Coding website, some of it was con
 
 ## 3. Did you have any problems or issues? How did you solve these? Did you post about these to the class repo issue tracker? Did you receive any useful feedback from your classmates?
 
-I did run into some problems, because I was confused with Week 2 setup tutorials for Windows. I used google search in order to find answers, but to no avail. Since Windows doesn't have the same setup as macOS it was hard to find the preferences tab for GitHub Desktop. I did not post about it because I eventually noticed that on macOS tutorial picture, *command + , = preferences*, so on Windows *ctrl + , = options*, which allowed me to uncheck to **anonymous usage data** box.
+I did run into some problems, because I was confused with Week 2 setup tutorials for Windows. I used google search in order to find answers, but to no avail. Since Windows doesn't have the same setup as macOS it was hard to find the preferences tab for GitHub Desktop. I did not post about it because I eventually noticed that on macOS tutorial picture, *command + , = preferences*. Alternatively, *ctrl + , = options* would work for Windows, this allowed me to uncheck the **anonymous usage data** box.
 
 ## 4. Is there anything in particular you learned that you would like to discuss further?
 
-I just want to learn more about commands, I know:
+I want to learn more about commands, I know:
 
 - *mv* for move
 - *cd* for change directory
