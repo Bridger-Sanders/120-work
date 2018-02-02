@@ -50,5 +50,7 @@ code quotes
 
 I made an attempt to figure out the nature of the [.gitattributes?](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues/77) issue, we came to the conclusion that the file should not be deleted.
 
+### Image of my editor
+
 ![Image of my editor](20180202creative_coding_w2.png)
 
