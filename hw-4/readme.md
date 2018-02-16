@@ -28,3 +28,4 @@ I'm honestly bad at checking the issues and helping with resolving them, but I h
 ## Self Portrait
 
 ![Self Portait](images/20181602_self_portrait.png)
+
