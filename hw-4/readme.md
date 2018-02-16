@@ -6,7 +6,7 @@ Bridger Sanders, Section 50
 
 ## Work Summary
 
-I read through week 4's module and played around with the 2d shapes in order to understand them better. I made a self portrait, I wanted to do something different from everyone else, thus my portrait is looks pixelated.
+I read through week 4's module and played around with the 2d shapes in order to understand them better. I made a self portrait, I wanted to do something different from everyone else, thus my portrait looks pixelated.
 
 ## Steps Taken
 
@@ -28,4 +28,3 @@ I'm honestly bad at checking the issues and helping with resolving them, but I h
 ## Self Portrait
 
 ![Self Portait](images/20181602_self_portrait.png)
-
