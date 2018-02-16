@@ -1,5 +1,7 @@
 Bridger Sanders, Section 50
 
+["Self Portrait"](https://bridger-sanders.github.io/120-work/hw-4)
+
 # hw-4 response
 
 ## Work Summary
@@ -22,3 +24,7 @@ I learned of new functions and shapes and got familiar with how to use them. I n
 ## Classmate Issues
 
 I'm honestly bad at checking the issues and helping with resolving them, but I have seen my classmates post helpful tips here and there to help with efficiency.
+
+## Self Portrait
+
+![Self Portait](images/20181602_self_portrait.png)
