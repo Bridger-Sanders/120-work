@@ -100,10 +100,3 @@ function draw() {
     noStroke();
     ellipse(ballLight.x, ballLight.y, ballLight.width, ballLight.width);
 }
-
-//function mousePressed() {
-    //ballB.scale_x = map(mouseX, 0, width, 0.5, 10);
-    //ballB.scale_y = map(mouseY, 0, height, 0.5, 10);
-    //ball.scale_x = map(mouseX, 0, width, 0.5, 10);
-    //ball.scale_y = map(mouseY, 0, height, 0.5, 10);
-//}
