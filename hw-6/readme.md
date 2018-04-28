@@ -2,7 +2,7 @@ Bridger Sanders, Section 50
 
 ["Sketch"](https://bridger-sanders.github.io/120-work/hw-6)
 
-# hw-5 response
+# hw-6 response
 
 ## Work Summary
 
