@@ -6,7 +6,7 @@ Bridger Sanders, Section 50
 
 ## Work Summary
 
-I had to work up the mustar the nerve to get my **** together, but generally I just look through the lesson plan and use it as reference. I look at the other students work to get ideas, they're my muse. 
+I had to work up the mustar and nerve to get my **** together, but generally I just look through the lesson plan and use it as reference. I look at the other students work to get ideas, they're my muse. 
 
 ## Steps Taken
 
