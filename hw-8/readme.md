@@ -6,7 +6,7 @@ Bridger Sanders, Section 50
 
 ## Work Summary
 
-Spent some time thinking about what I wanted to do, coming up with ideas is hard for this class. I found it troublesome to imagine how I would have to construct the code for the visual appearance. So I eventually decided I would play around with it and see what I could make.
+Spent some time thinking about what I wanted to do, coming up with ideas is hard for this class. I found it troublesome to imagine how I would have to construct the code for the visual appearance. So I eventually decided I would just play around with it and see what I could make.
 
 ## Steps Taken
 
@@ -19,7 +19,7 @@ Spent some time thinking about what I wanted to do, coming up with ideas is hard
 
 ## Issues & Solutions
 
-The page kept loading with a blank canvas a few times, I realized I was missing a `}` bracket at the end of one of my for loops. Another problem was the lines would appear for the string grid and the colors for the boxes wouldn't show up either. I added a `pop()` and `push()` to isolate the `noStroke()` I had set for the boxes which seemed to fix my problem.
+The page kept loading with a blank canvas a few times, I realized I was missing a `}` bracket at the end of one of my for loops. Another problem was that the lines wouldn't appear for the line grid and the colors for the boxes wouldn't show up either. I added a `pop()` and `push()` to isolate the `noStroke()` I had set for the boxes which seemed to fix my problem.
 
 ## What I Learned 
 
