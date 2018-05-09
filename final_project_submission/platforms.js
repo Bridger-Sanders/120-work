@@ -1,10 +1,11 @@
 class Platform1 {
     constructor() {
-        this.x_axis = -284;
-        this.y_axis = 600;
+        var y_p1 = [550, 350]
+        this.x_axis = 1350 - (1312.5 - 34.5);
+        this.y_axis = random(y_p1);
         this.x_long = windowWidth/4;
         this.y_high = 25;
-        this.x_speed = 10;
+        this.x_speed = 9;
 
         this.show = function() {
             stroke(255);
@@ -16,17 +17,19 @@ class Platform1 {
            this.x_axis -= this.x_speed;
            if (this.x_axis <= -this.x_long) {
             this.x_axis = windowWidth;
+            this.y_axis = random(y_p1);
             }
         }
     }
 }
 class Platform2 {
     constructor() {
-        this.x_axis = 266;
-        this.y_axis = 600;
+        var y_p2 = [450, 350]
+        this.x_axis = 1350 - (875 - 23);
+        this.y_axis = random(y_p2);
         this.x_long = windowWidth/4;
         this.y_high = 25;
-        this.x_speed = 10;
+        this.x_speed = 9;
 
         this.show = function() {
             stroke(255);
@@ -38,17 +41,19 @@ class Platform2 {
            this.x_axis -= this.x_speed;
            if (this.x_axis <= -this.x_long) {
             this.x_axis = windowWidth;
+            this.y_axis = random(y_p2);
             }
         }
     }
 }
 class Platform3 {
     constructor() {
-        this.x_axis = 816;
-        this.y_axis = 600;
+        var y_p3 = [350, 250]
+        this.x_axis = 1350 - (437.5 - 11.5);
+        this.y_axis = random(y_p3);
         this.x_long = windowWidth/4;
         this.y_high = 25;
-        this.x_speed = 10;
+        this.x_speed = 9;
 
         this.show = function() {
             stroke(255);
@@ -60,17 +65,19 @@ class Platform3 {
            this.x_axis -= this.x_speed;
            if (this.x_axis <= -this.x_long) {
             this.x_axis = windowWidth;
+            this.y_axis = random(y_p3);
            }
         }
     }
 }
 class Platform4 {
     constructor() {
-        this.x_axis = windowWidth;
-        this.y_axis = 600;
+        var y_p4 = [450, 250]
+        this.x_axis = 1350;
+        this.y_axis = random(y_p4);
         this.x_long = windowWidth/4;
         this.y_high = 25;
-        this.x_speed = 10;
+        this.x_speed = 9;
 
         this.show = function() {
             stroke(255);
@@ -82,6 +89,7 @@ class Platform4 {
            this.x_axis -= this.x_speed;
            if (this.x_axis <= -this.x_long) {
             this.x_axis = windowWidth;
+            this.y_axis = random(y_p4);
            }
         }
     }

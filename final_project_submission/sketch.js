@@ -8,7 +8,7 @@ var platform4;
 boolean (jumping) = false;
 
 function setup() {
-    createCanvas(windowWidth, 650);
+    createCanvas(1350, 650);
     avatar = new Avatar();
     platform1 = new Platform1();
     platform2 = new Platform2();
@@ -19,15 +19,15 @@ function setup() {
 function draw() {
     background(0);
     avatar.show();
-    //platform1.show();
-    //platform1.update();
+    platform1.show();
+    platform1.update();
     platform2.show();
     platform2.update();
     platform3.show();
     platform3.update();
     platform4.show();
     platform4.update();
-    
+
     avatar.y_axis += avatar.gravity;
     if (avatar.x_axis + avatar.x_long > platform1.x_axis && 
         avatar.x_axis < platform1.x_axis + platform1.x_long && 
@@ -40,7 +40,7 @@ function draw() {
             avatar.x_axis + avatar.gravity < (platform1.x_axis - 5) + platform1.x_long && 
             avatar.y_axis + avatar.y_high > platform1.y_axis && 
             avatar.y_axis < platform1.y_axis + platform1.y_high) {
-    avatar.x_axis += platform1.x_speed - 0.5;
+    avatar.x_axis += -10;
     }
     else if (avatar.x_axis + avatar.x_long > platform2.x_axis && 
         avatar.x_axis < platform2.x_axis + platform2.x_long && 
@@ -53,7 +53,7 @@ function draw() {
             avatar.x_axis + avatar.gravity < (platform2.x_axis - 5) + platform2.x_long && 
             avatar.y_axis + avatar.y_high > platform2.y_axis && 
             avatar.y_axis < platform2.y_axis + platform2.y_high) {
-    avatar.x_axis += platform2.x_speed - 0.5;
+    avatar.x_axis += -10;
     }
     else if (avatar.x_axis + avatar.x_long > platform3.x_axis && 
         avatar.x_axis < platform3.x_axis + platform3.x_long && 
@@ -66,7 +66,7 @@ function draw() {
             avatar.x_axis + avatar.gravity < (platform3.x_axis - 5) + platform3.x_long && 
             avatar.y_axis + avatar.y_high > platform3.y_axis && 
             avatar.y_axis < platform3.y_axis + platform3.y_high) {
-    avatar.x_axis += platform3.x_speed - 0.5;
+    avatar.x_axis += -10;
     }
     else if (avatar.x_axis + avatar.x_long > platform4.x_axis && 
         avatar.x_axis < platform4.x_axis + platform4.x_long && 
@@ -79,13 +79,15 @@ function draw() {
             avatar.x_axis + avatar.gravity < (platform4.x_axis - 5) + platform4.x_long && 
             avatar.y_axis + avatar.y_high > platform4.y_axis && 
             avatar.y_axis < platform4.y_axis + platform4.y_high) {
-    avatar.x_axis += platform4.x_speed - 0.5;
+    avatar.x_axis += -10;
     }
     else if (avatar.y_axis + avatar.y_high > height) {
     //avatar.y_axis = height - avatar.y_high;
     //avatar.gravity = 0;
     //jumping = false;
-    avatar.y_axis = height/2;
+    avatar.y_axis = height/4;
+    avatar.x_axis = width/8;
+    jumping = true;
     }
     else {
     avatar.gravity ++;

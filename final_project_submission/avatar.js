@@ -1,7 +1,7 @@
 class Avatar {
     constructor() {
         this.x_axis = width/8;
-        this.y_axis = height/2;
+        this.y_axis = height/4;
         this.x_long = 25;
         this.y_high = 25;
         this.gravity = 0;
