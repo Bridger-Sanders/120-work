@@ -1,6 +1,6 @@
 class Platform1 {
     constructor() {
-        var y_p1 = [550, 350]
+        var y_p1 = [150, 250, 350]
         this.x_axis = 1350 - (1312.5 - 34.5);
         this.y_axis = random(y_p1);
         this.x_long = windowWidth/4;
@@ -24,7 +24,7 @@ class Platform1 {
 }
 class Platform2 {
     constructor() {
-        var y_p2 = [450, 350]
+        var y_p2 = [250, 350, 450, 550]
         this.x_axis = 1350 - (875 - 23);
         this.y_axis = random(y_p2);
         this.x_long = windowWidth/4;
@@ -48,7 +48,7 @@ class Platform2 {
 }
 class Platform3 {
     constructor() {
-        var y_p3 = [350, 250]
+        var y_p3 = [350, 450, 550]
         this.x_axis = 1350 - (437.5 - 11.5);
         this.y_axis = random(y_p3);
         this.x_long = windowWidth/4;
@@ -72,7 +72,7 @@ class Platform3 {
 }
 class Platform4 {
     constructor() {
-        var y_p4 = [450, 250]
+        var y_p4 = [350]
         this.x_axis = 1350;
         this.y_axis = random(y_p4);
         this.x_long = windowWidth/4;

@@ -85,7 +85,7 @@ function draw() {
     //avatar.y_axis = height - avatar.y_high;
     //avatar.gravity = 0;
     //jumping = false;
-    avatar.y_axis = height/4;
+    avatar.y_axis = height/8;
     avatar.x_axis = width/8;
     jumping = true;
     }
